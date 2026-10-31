@@ -1,0 +1,11 @@
+﻿fastapi
+uvicorn[standard]
+groq
+pydantic
+pydantic-settings
+python-dotenv
+httpx
+Pillow
+youtube-transcript-api
+python-multipart
+pypdf

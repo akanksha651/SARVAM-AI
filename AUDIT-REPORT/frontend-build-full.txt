@@ -1,0 +1,26 @@
+
+> frontend@0.1.0 build
+> next build
+
+▲ Next.js 16.4.3 (Turbopack)
+- Environments: .env.local
+✓ Running next.config.ts took 69ms
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 1 error:
+./src/app/page.tsx:458:35
+Error: Expression expected
+  [90m456 |[0m             ) : selectedModule === [32m"finance"[0m ? (
+  [90m457 |[0m               <[33mFinanceWorkspace[0m />
+[31m[1m>[0m [90m458 |[0m               <[33mFinanceCommandCenter[0m />
+  [90m    |[0m                                   [31m[1m^[0m
+  [90m459 |[0m             ) : selectedModule === [32m"education"[0m ? (
+  [90m460 |[0m               <[33mEducationWorkspace[0m />
+  [90m461 |[0m               <[33mEducationLearningSuite[0m />
+
+Parsing ecmascript source code failed
+
+
+    at ignore-listed frames

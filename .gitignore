@@ -1,0 +1,69 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Node.js
+node_modules/
+.next/
+out/
+dist/
+
+# Local databases and user data
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Backup files and folders
+*.backup*
+*.bak
+_sarvam_*_backup_*/
+finance-backup-*/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Temporary root-level development scripts and duplicate component
+/add_education_quiz_routes.py
+/implement_record_edit.py
+/service-workspace.tsx
+
+# TypeScript build cache
+*.tsbuildinfo
+
+# All backup files and folders, regardless of naming convention
+*backup*
+*Backup*
+*BACKUP*
+
+# Temporary pre-change snapshots
+*.before-*
+*.before_*
+
+# Backend temporary development scripts
+/backend/*.py
+
+# Frontend temporary development scripts
+/frontend/*.py
+
+# Empty/unnecessary npm lockfile in Python backend
+/backend/package-lock.json
+
+# Unreferenced local test images
+/backend/sarvam_real_tomato.jpg
+/backend/sarvam_test_leaf.png
+
+# Historical API snapshots
+/backend/app/api/*before*
